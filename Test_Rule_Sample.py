@@ -1,7 +1,7 @@
 import sys
 
 from richs.console import Console
-from richs.ruled import Rule
+from richs.rule import Rule
 
 try:
     text = sys.argv[1]
