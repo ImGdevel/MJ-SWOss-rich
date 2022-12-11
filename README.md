@@ -8,6 +8,7 @@ OSS 수정및 새로운 기능 개발에 대한 진행 내용은 richs 폴더 �
 
 미리 별도의 모듈 설치 없이 실행이 가능하도록 설정해두었으나
 실행이 불가할시 다음 모듈을 설치해주세요.
+python -m pip install rich
 
 
 It is a project for open source Rich analysis. This project is intended for educational purposes and is not intended for theft or unauthorized distribution or commercial use. 
