@@ -18,6 +18,8 @@ console = Console()
 
 among = Spinner('hyperamongus', text=Text(repr('amongus'), style="green"))
 fall = Spinner('fallguys', text=Text(repr('soar'), style="green"))
+mjumascot = Spinner('myongjimascot', text=Text(repr('amongus'), style="green"))
+mjulogo = Spinner('myonjiLogo', text=Text(repr('soar'), style="green"))
 
 dots = Spinner('dots',text=Text(repr('dots'), style="green"))
 star = Spinner('star',text=Text(repr('star'), style="green"))
@@ -29,9 +31,8 @@ bouncingBall = Spinner('bouncingBall',text=Text(repr('bouncingBall'), style="gre
 table = Table(show_header=False, box=SIMPLE)
 table.add_column()
 table.add_column()
-table.add_row(dots, star)
-table.add_row(hamburger, balloon)
-table.add_row(bouncingBar, bouncingBall)
+table.add_row(mjumascot, mjulogo)
+table.add_row(among, fall)
 
 with Live(table, console=console, screen=True, refresh_per_second=20):
     while True:
